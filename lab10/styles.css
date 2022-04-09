@@ -10,3 +10,10 @@ nav a{color: #8a2be2;}
 nav a:hover{background-color: #b0c4de;}
 nav{padding: 10px;}
 nav{margin-bottom: 30px;}
+.banner{width: 100%;}
+.banner{max-width: 100%;}
+@media only screen and (max-width: 600px){nav {display: flex;}} 
+nav{flex-direction: column; align-items: flex-start;}
+nav{padding: 1rem;}
+@media only screen and (max-width: 600px){span {display: none;}}
+.navlink{padding: .5rem;}
