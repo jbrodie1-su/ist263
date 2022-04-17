@@ -17,5 +17,5 @@ nav{flex-direction: column; align-items: flex-start;}
 nav{padding: 1rem;}
 @media only screen and (max-width: 600px){span {display: none;}}
 .navlink{padding: .5rem;}
-#skip{position:absolute; left: -999px; background-color: black; padding: 5px}
+#skip{position:absolute; left: -999px; background-color: black; padding: 5px; color: white;}
 #skip:focus{left:10px}
