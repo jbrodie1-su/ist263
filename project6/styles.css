@@ -1,0 +1,9 @@
+nav{background-color: #f0fff0; text-align: center;}
+nav a{color: blue;}
+nav a:hover{background-color: #b0c4de;}
+nav{border: 1px solid #000000;
+    padding: 15px;
+     margin: 50px; 
+     font-size: 20px;
+    }
+    body{font-family: 'Libre Baskerville', serif;}
