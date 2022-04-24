@@ -7,3 +7,10 @@ nav{border: 1px solid #000000;
      font-size: 20px;
     }
     body{font-family: 'Libre Baskerville', serif;}
+    @media only screen and (max-width: 600px){nav {display: flex;}} 
+nav{flex-direction: column; align-items: flex-start;}
+nav{padding: 1rem;}
+@media only screen and (max-width: 600px){span {display: none;}}
+.navlink{padding: .5rem;}
+#skip{position:absolute; left: -999px; background-color: black; padding: 5px; color: white;}
+#skip:focus{left:10px}
