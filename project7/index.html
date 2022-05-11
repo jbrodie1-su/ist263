@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sit Back and Relax</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+      
+        body{background-image: url("../images/hpsun.png") ; text-align: center;}
+        h1{ 
+            animation: type 3s;
+            overflow:hidden;
+            white-space: nowrap;
+            font-size: 60px;
+            
+        }
+
+        h2{font-size: 40px; text-align: center; color: blue;}
+
+        @keyframes type {
+            0% {width: 0ch;}
+            100% {width: 22ch}
+        }
+        p{font-size: 25px; color:black; font-weight: bold;}
+
+        #skip{position:absolute; left: -999px; background-color: black; padding: 5px; color: white;}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" class="navlink">Relax | </a>
+            <a href="report.html" class="navlink">Report |</a>
+            <a href="reset.html" class="navlink">Reset</a>
+            <a href="#content" id="skip">Skip To Content</a>
+        </nav>
+
+        <h1 id="content">Welcome to your online domain of daily relaxation.</h1>
+        
+
+        <h2>As you embark on this journey of relation <br>
+         and reflection be sure to take all the time you need.</h2>
+        
+        <p>
+        -Close your eyes and take deep breaths for 10 seconds <br>
+            <br>
+        -Reflect on the events that have occured in your life today<br>
+            <br>
+        -Think about what made you happy or sad today<br>
+            <br>
+        -As you keep these thoughts in mind feel free to move onto the Report tab when you are ready<br>
+        </p>
+
+    </body>
+</html>
